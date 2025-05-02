@@ -1,0 +1,25 @@
+*Eg :    Steps for Hello world Program*
+1.	 *Create a New Android Project*
+•	Open Android Studio → "New Project".
+•	Choose "Empty View Activity" and click Next.
+•	 *Enter project details:*
+o	Name: HelloWorld
+o	Save Location: Choose a folder.
+o	Language: Java or Kotlin (choose Kotlin if unsure; it's recommended for modern Android apps).
+o	Minimum SDK: Choose the lowest API level you want to support (e.g., API 21: Lollipop).
+•	Click Finish.
+2.	 *Edit the Layout XML*
+•	Go  to:
+app → res → layout → activity_main.xml
+•	Create a textView and a button
+  
+3.	 *Code the logic in MainActivity .java*
+
+On clicking on button, Helloworld should be displayed.
+
+4.	 *Run the App*
+•	Click the Run button 
+•	Select a device:
+o	Physical device (USB Debugging enabled)
+o	or Android Emulator
+•	You should see "Hello World!" displayed on the screen.
